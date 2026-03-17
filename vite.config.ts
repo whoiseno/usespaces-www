@@ -6,5 +6,5 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import vueRouter from "vue-router/vite";
 
 export default defineConfig({
-  plugins: [tsconfigPaths(), tailwindcss(), vueRouter(), vue(), vueDevTools()],
+  plugins: [tsconfigPaths({ loose: true }), tailwindcss(), vueRouter(), vue(), vueDevTools()],
 });
