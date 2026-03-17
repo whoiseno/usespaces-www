@@ -1,11 +1,13 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
-  "ignorePatterns": ["dist/**", "coverage/**", "vendor/**", "test/snapshots/**"],
   "printWidth": 120,
   "singleAttributePerLine": true,
   "sortImports": {
     "groups": [
       "type-import",
+      {
+        "newlinesBetween": true
+      },
       ["value-builtin", "value-external"],
       {
         "newlinesBetween": true
@@ -20,9 +22,6 @@
         "newlinesBetween": true
       },
       ["value-parent", "value-sibling", "value-index"],
-      {
-        "newlinesBetween": true
-      },
       "unknown"
     ]
   },

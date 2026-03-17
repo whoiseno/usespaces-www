@@ -1,4 +1,3 @@
 {
-  "recommendations": ["astro-build.astro-vscode", "oxc.oxc-vscode"],
-  "unwantedRecommendations": []
+  "recommendations": ["Vue.volar", "dbaeumer.vscode-eslint", "EditorConfig.EditorConfig", "oxc.oxc-vscode"]
 }
