@@ -4,7 +4,9 @@
     "env.d.ts",
     "src/**/*",
     "src/**/*.vue",
-    "./typed-router.d.ts"
+    "./typed-router.d.ts",
+    "auto-imports.d.ts",
+    "components.d.ts"
   ],
   "exclude": [
     "src/**/__tests__/*"
@@ -17,6 +19,9 @@
     "paths": {
       "@/*": [
         "./src/*"
+      ],
+      "#build/ui/*": [
+        "./node_modules/.nuxt-ui/ui/*"
       ]
     },
     // `vue-tsc --build` produces a .tsbuildinfo file for incremental type-checking.
