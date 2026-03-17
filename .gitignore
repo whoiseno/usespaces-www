@@ -45,3 +45,8 @@ __screenshots__/
 auto-imports.d.ts
 components.d.ts
 
+# Local env files
+.env
+.env.*
+!.env.example
+

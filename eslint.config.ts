@@ -20,12 +20,7 @@ export default defineConfigWithVueTs(
   ...pluginVue.configs["flat/essential"],
   {
     rules: {
-      "vue/multi-word-component-names": [
-        "error",
-        {
-          globalIgnores: ["**/pages/*"],
-        },
-      ],
+      "vue/multi-word-component-names": ["error", { ignores: ["default", "index", "waitlist"] }],
     },
   },
   vueTsConfigs.recommended,

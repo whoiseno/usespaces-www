@@ -9,6 +9,6 @@
 
   useHead({
     title: "Home",
-    titleTemplate: "%s | useSpaces",
+    titleTemplate: "%s — useSpaces",
   });
 </script>

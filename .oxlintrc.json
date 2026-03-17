@@ -8,9 +8,10 @@
     "vue"
   ],
   "env": {
+    "built-in": true,
     "browser": true
   },
   "categories": {
     "correctness": "warn"
-  },
+  }
 }
